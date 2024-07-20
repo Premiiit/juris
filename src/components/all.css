@@ -64,3 +64,18 @@
 .form-group{
     padding: 15px;
 }
+
+@media only screen and (max-width: 900px){
+    .outer{
+        margin: 0;
+    }
+    .left{
+        width: 100vw;
+    }
+    .frm{
+        width: 100%;
+    }
+    .last{
+        width: 100%;
+    }
+}

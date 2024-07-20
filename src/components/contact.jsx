@@ -30,7 +30,7 @@ const contact = () => {
                 </form>
                 </div>
 
-                <div className="contact">
+                <div className="last">
                     <h3>Contact us at</h3>
                     <p>Email us at: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio.</p>
                     <p>call us at: 99999999999</p>
