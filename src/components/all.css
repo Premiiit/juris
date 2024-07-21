@@ -1,81 +1,160 @@
-.outer{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.outer {
     /* max-width: 80vw; */
     margin: 0 200px;
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: center;
 }
-.pric{
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pric {
     font-weight: bold;
     display: flex;
     justify-content: center;
     margin: 10px;
     padding: 10px 0;
 }
-.content{
+
+.content {
     padding: 15px;
     align-items: center;
 }
-.heading{
+
+.heading {
     font-weight: bold;
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 }
-.blue{
+
+.blue {
     color: blue;
 }
- .box{
-    text-align: center;
- }
 
- /* about page css */
- .founder{
+.box {
+    text-align: center;
+}
+
+/* about page css */
+.founder {
     height: 50vh;
     background-color: bisque;
     padding: 50px 10px;
- }
- .left{
+}
+
+.left {
     width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
- }
- .right{
+}
+
+.right {
     display: flex;
     justify-content: center;
     align-items: center;
- }
- .right img{
+}
+
+.right img {
     height: 30px;
     width: 110px;
- }
+}
 
- /* contact us */
-.conc{
+/* contact us */
+.conc {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-.frm{
+
+.frm {
     width: 60%;
 }
-.form-group{
+
+.form-group {
     padding: 15px;
 }
 
-@media only screen and (max-width: 900px){
-    .outer{
+/* team members */
+.members {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 150px;
+    height: 70vh;
+}
+
+.image {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+/* event */
+.box-event {
+    margin: 50px 120px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-event{
+    padding: 20px 30px;
+    height: max-content;
+}
+.text-event{
+    padding: 20px 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .outer {
         margin: 0;
     }
-    .left{
+
+    .left {
         width: 100vw;
     }
-    .frm{
+
+    .frm {
         width: 100%;
     }
-    .last{
+
+    .last {
         width: 100%;
+    }
+
+    .image {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        width: auto;
+    }
+
+    .members {
+        margin: 0;
+        height: 100%;
+    }
+    .box-event{
+        flex-direction: column;
+        margin: 50px;
     }
 }

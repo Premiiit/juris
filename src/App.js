@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Team from './components/Team';
 import Contact from './components/contact';
+import Event from './components/Event';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/policy" element={<PrivacyPolicy/>} />
           <Route exact path="/team" element={<Team/>} />
           <Route exact path="/contact" element={<Contact/>} />
+          <Route exact path="/event" element={<Event/>} />
           {/* <Route exact path="/visitpagelarge/:id" element={<VisitPageLarge />} /> */}
           {/* <Route exact path="/visitpagesmall/:id" element={<VisitPageSmall />} /> */}
         </Routes>
