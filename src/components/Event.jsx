@@ -33,10 +33,50 @@ const Event = () => {
                 </div>
 
                 <h2 className="pric">Testimonials</h2>
+                <div className="test">
+                <div className="duo">
                 <div class="testimonial">
-                    <h1>Title</h1>
+                    
+                    <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit odio eu maximus finibus. Quisque nec felis ligula. Quisque quis augue vel ipsum convallis egestas.</p>
                     <p class="source">&mdash; Testimonial Source</p>
+                </div>
+                
+                <div class="testimonial">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit odio eu maximus finibus. Quisque nec felis ligula. Quisque quis augue vel ipsum convallis egestas.</p>
+                    <p class="source">&mdash; Testimonial Source</p>
+                </div>
+                </div>
+                <div className="duo">
+                <div class="testimonial">
+                    
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit odio eu maximus finibus. Quisque nec felis ligula. Quisque quis augue vel ipsum convallis egestas.</p>
+                    <p class="source">&mdash; Testimonial Source</p>
+                </div>
+                
+                <div class="testimonial">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit odio eu maximus finibus. Quisque nec felis ligula. Quisque quis augue vel ipsum convallis egestas.</p>
+                    <p class="source">&mdash; Testimonial Source</p>
+                </div>
+                </div>
+                <div className="duo">
+                <div class="testimonial">
+                    
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit odio eu maximus finibus. Quisque nec felis ligula. Quisque quis augue vel ipsum convallis egestas.</p>
+                    <p class="source">&mdash; Testimonial Source</p>
+                </div>
+                
+                <div class="testimonial">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit odio eu maximus finibus. Quisque nec felis ligula. Quisque quis augue vel ipsum convallis egestas.</p>
+                    <p class="source">&mdash; Testimonial Source</p>
+                </div>
+                </div>
+
                 </div>
             </div>
         </>
